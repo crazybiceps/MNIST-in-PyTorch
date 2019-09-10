@@ -1,5 +1,3 @@
-"""Created on Sun Sep  8 14:29:15 2019"""
-
 from __future__ import print_function
 
 import math
@@ -59,10 +57,10 @@ out = net(input)
 print(out)
 
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.SGD(net.parameters() , lr = .01)
+optimizer = optim.SGD(net.parameters() , lr = .01 , momentum = .5)
 
 # Loading MNIST data
-w = pd.read_csv("/home/manpreet/D/Python_Codes/MNIST_Train/train.csv")
+w = pd.read_csv("/home/manpreet/D/Python_Codes/MNIST_Train/train.csv") # Downloaded file location should be changed here 
 
 # View some random images
 plt.imshow(x_train[ 0 , :].reshape(28 , 28) , cmap = "gray")
