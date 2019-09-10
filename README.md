@@ -1,5 +1,5 @@
 # MNIST-in-PyTorch
-Naive Implementation of PyTorch framework to solve the MNIST-Digit_Recognition Problem
+Naive Implementation of PyTorch framework to solve the MNIST-Digit-Recognition-Problem
 
 The Training Dataset can be downloaded from : https://www.kaggle.com/c/digit-recognizer/download/train.csv
 
